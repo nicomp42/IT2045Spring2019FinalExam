@@ -6,5 +6,10 @@ package popTart;
  *
  */
 public class PopTart extends PocketSnack {
-
+	private String flavor;
+	
+	public PopTart(String flavor) {
+		this.flavor = flavor;
+	}
+	
 }
